@@ -5,8 +5,8 @@
 | Identifier | VATILON-2026-01 |
 | CVE | requested, not yet assigned |
 | CWE | CWE-912 (hidden functionality), CWE-306 (missing authentication for critical function) |
-| CVSS v3.1 | **9.8 critical** — `AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
-| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published `<date>`. |
+| CVSS v3.1 | **9.8 critical** — `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` |
+| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published 2026-09-29. |
 | Fix available | **No.** Present and byte-identical in the vendor's current firmware. Not fixable on the device; see Mitigation. |
 
 ## Summary
@@ -108,8 +108,8 @@ Two things actually work:
 | 2026-09-11 | Discovered during an authentication audit of an owned camera |
 | 2026-09-14 | Confirmed present on a second SoC family from a public firmware dump |
 | 2026-09-28 | Confirmed present and byte-identical in the vendor's current firmware, `V1.18.09` |
-| `<date>` | CVE ID requested from MITRE CNA-LR |
-| `<date>` | Advisory published. The vendor was not notified — see [README.md](README.md#disclosure-statement) |
+| 2026-09-29 | Advisory published. The vendor was not notified — see [README.md](README.md#disclosure-statement) |
+| 2026-10-06 | CVE ID requested from MITRE CNA-LR |
 
 ## Credit
 

@@ -5,8 +5,8 @@
 | Identifier | VATILON-2026-02 |
 | CVE | requested, not yet assigned |
 | CWE | CWE-306 (missing authentication for critical function), CWE-287 (improper authentication), CWE-1188 (insecure default initialization) |
-| CVSS v3.1 | **9.1 critical** — `AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N` |
-| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published `<date>`. |
+| CVSS v3.1 | **9.1 critical** — `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:N` |
+| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published 2026-09-29. |
 | Fix available | No. The RTSP defect's static signature is unchanged in the vendor's current release, `V1.18.09`. |
 
 ## Summary

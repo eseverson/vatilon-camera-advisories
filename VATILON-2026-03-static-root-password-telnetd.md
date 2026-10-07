@@ -5,8 +5,8 @@
 | Identifier    | VATILON-2026-03                                                                                 |
 | CVE           | requested, not yet assigned                                                                     |
 | CWE           | CWE-798 (use of hard-coded credentials), CWE-1392 (use of default credentials)                  |
-| CVSS v3.1     | **9.8 critical** — `AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` for `V1.16.39-20250721` and earlier. Lower for `V1.18.09` — see *Partially addressed in current firmware*. |
-| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published `<date>`. |
+| CVSS v3.1     | **9.8 critical** — `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:H/I:H/A:H` for `V1.16.39-20250721` and earlier. Lower for `V1.18.09` — see *Partially addressed in current firmware*. |
+| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published 2026-09-29. |
 | Fix available | **Partially.** `V1.18.09` hardens the credential's storage. The always-on telnetd and the static, owner-unchangeable password remain. |
 
 ## Summary

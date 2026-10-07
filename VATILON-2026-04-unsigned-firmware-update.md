@@ -5,8 +5,8 @@
 | Identifier | VATILON-2026-04 |
 | CVE | requested, not yet assigned |
 | CWE | CWE-347 (improper verification of cryptographic signature) |
-| CVSS v3.1 | **7.2 high** — `AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H` |
-| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published `<date>`. |
+| CVSS v3.1 | **7.2 high** — `CVSS:3.1/AV:N/AC:L/PR:H/UI:N/S:U/C:H/I:H/A:H` |
+| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published 2026-09-29. |
 | Fix available | No. `V1.18.09` adds payload obfuscation but still verifies no signature. |
 
 ## Summary

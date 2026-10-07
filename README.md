@@ -2,7 +2,7 @@
 
 Five defects in the IP camera firmware published under the **Vatilon** brand and resold under several others. The most serious is an undocumented service that gives anyone on the network root on the camera with a single UDP packet, and it is present unchanged in the vendor's current firmware release.
 
-**Status: unpublished. CVE assignment is being requested; the advisories themselves are held.** No vendor embargo holds them back — see the disclosure statement below — but publication is a separately gated step and the CVE identifiers are not assigned yet. Publication venue is a public GitHub repository, to be created. See `disclosure-plan` on Paperclip task MEO-3.
+**Status: published 2026-09-29. CVE identifiers were requested from the MITRE CNA of Last Resort on 2026-10-06 and are not yet assigned.** Each advisory's CVE field is filled in here as its identifier arrives. No vendor embargo applies — see the disclosure statement below.
 
 ## Who the vendor is
 
@@ -40,7 +40,7 @@ These findings are published as **independent disclosure**. The vendor was not c
 
 Withholding the findings would delay owners learning what is sitting on their network, and would buy no prospect of a fix in return. Owners can act today — segment the camera or replace the firmware — and that is the only remediation that exists.
 
-**What this does not assert.** It is not a claim that nobody is building firmware. A build for this product code dated May 2026 exists, it is published on the vendor's own download page, and it still contains the worst of these defects unchanged (see `verification` on Paperclip task MEO-3). It is a judgment that a report would not produce a fix that reaches these cameras.
+**What this does not assert.** It is not a claim that nobody is building firmware. A build for this product code dated May 2026 exists, it is published on the vendor's own download page, and it still contains the worst of these defects unchanged — the `system_wapper` binary in `V1.18.09` is md5-identical to the one in `V1.16.39-20250721`, as [VATILON-2026-01](VATILON-2026-01-system-wapper-udp-rce.md) records. It is a judgment that a report would not produce a fix that reaches these cameras.
 
 ## Scope and method
 

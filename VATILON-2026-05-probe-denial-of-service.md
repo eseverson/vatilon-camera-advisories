@@ -5,8 +5,8 @@
 | Identifier | VATILON-2026-05 |
 | CVE | requested, not yet assigned |
 | CWE | CWE-400 (uncontrolled resource consumption) |
-| CVSS v3.1 | **7.5 high** — `AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H` |
-| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published `<date>`. |
+| CVSS v3.1 | **7.5 high** — `CVSS:3.1/AV:N/AC:L/PR:N/UI:N/S:U/C:N/I:N/A:H` |
+| Status | Independent disclosure — the vendor was not contacted. Rationale in [README.md](README.md#disclosure-statement). Published 2026-09-29. |
 | Fix available | No. |
 
 ## Summary
